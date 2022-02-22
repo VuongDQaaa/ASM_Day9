@@ -4,7 +4,7 @@ namespace ASM_Day9.Extensions
 {
     public static class SeedingExtension
     {
-        public static IWebHost SeedData(this IWebHost host)
+        public static WebApplication SeedData(this WebApplication host)
         {
             using (var scope = host.Services.CreateScope())
             {

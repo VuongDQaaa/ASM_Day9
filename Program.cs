@@ -2,6 +2,7 @@ using ASM_Day9.Data;
 using ASM_Day9.Interface;
 using ASM_Day9.Service;
 using Microsoft.EntityFrameworkCore;
+using ASM_Day9.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,4 +30,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.SeedData().Run();
