@@ -1,5 +1,5 @@
 using ASM_Day9.Data;
-using ASM_Day9.Interface;
+using ASM_Day9.Interfaces;
 using ASM_Day9.Service;
 using Microsoft.EntityFrameworkCore;
 using ASM_Day9.Extensions;

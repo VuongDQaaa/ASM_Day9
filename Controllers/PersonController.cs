@@ -1,6 +1,6 @@
 using ASM_Day9.DTO;
 using ASM_Day9.Entities;
-using ASM_Day9.Interface;
+using ASM_Day9.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASM_Day9.Controllers

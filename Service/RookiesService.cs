@@ -1,4 +1,4 @@
-using ASM_Day9.Interface;
+using ASM_Day9.Interfaces;
 using ASM_Day9.Data;
 using ASM_Day9.DTO;
 using ASM_Day9.Entities;
